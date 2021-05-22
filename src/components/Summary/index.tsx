@@ -7,10 +7,10 @@ import { TransactionsContext } from '../../TransactionsContext';
 import { Container } from "./styles";
 
 export function Summary() {
-    const transactions = useContext(TransactionsContext);
+    const { transactions } = useContext(TransactionsContext);
 
     console.log(transactions)
-    
+
     return (
         <Container>
             <div>
@@ -24,7 +24,7 @@ export function Summary() {
 
             <div>
                 <header>
-                    <p>Saídas</p>""
+                    <p>Saídas</p>
                     <img src={outcomeImg} alt="Saídas" />
                 </header>
 
