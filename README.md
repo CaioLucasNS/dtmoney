@@ -1,0 +1,3 @@
+# dtmoney
+
+ReactJS + TypeScript project with MirageJS for fake backend. Calculates a person's financial income with deposits, withdraws and total 
